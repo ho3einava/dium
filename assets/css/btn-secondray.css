@@ -1,0 +1,20 @@
+.btn-secondary{
+    color: rgb(214, 42, 61);
+    font-family: "vazir";
+    font-weight: 600;
+    display: flex;
+    padding-right: 2rem;
+    background-color: #fff;
+    position: relative;
+}
+.icon2 {
+    background-color: transparent;
+    color: rgb(214, 42, 61);
+    position: absolute;
+    left: 1rem;
+    width: 25px;
+    height: 100%;
+  }
+  .icon2 i{
+    font-size: 1rem;
+  }

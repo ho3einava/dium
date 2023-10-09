@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "vazir";
+    src: url("/fonts/leadcapture/Vazir-Bold-FD-WOL.woff2") format("woff2"),
+      url("/fonts/leadcapture/Vazir-Bold-FD-WOL.woff") format("woff"),
+      url("/fonts/leadcapture/Vazir-Bold-FD-WOL.ttf") format("ttf");
+  }
+  
+.ctabox{
+    width: 100%;
+    height: 271px;
+    display: flex;
+    
+}
+.ctabox-contianer{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(214, 42, 61);
+    background-image: url('/images/ctabox/Taieri.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.ctabox-main{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.ctabox-title{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.76;
+    font-family: 'vazir';
+    
+    
+}
+.ctabox-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.btn1,.btn2{
+    width: 240px;
+}
+
+
+@media screen and (min-width:200px) and (max-width:550px) {
+    .ctabox-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .ctabox-main{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .ctabox-title{
+        color: #ffffff;
+        margin-bottom: 50px;
+        font-size: 16px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 1.76;
+        font-family: 'vazir';
+        
+        
+    }
+    .btn1,.btn2{
+        
+        width: 100%;
+      }
+      .btn1{
+        border: 1px solid #fff;
+      }
+}
+@media screen and (min-width:550px) and (max-width:768px) {
+    .ctabox-main{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .btn1,.btn2{
+        
+        width: 230px;
+      }
+      .btn1{
+        border: 1px solid #fff;
+      }
+}
+@media screen and (min-width:768px)  {
+    .ctabox-contianer{
+        width: 100%;
+    }
+
+    .ctabox-main{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .btn1,.btn2{
+        
+        width: 230px;
+      }
+      .btn1{
+        border: 1px solid #fff;
+      }
+      
+}

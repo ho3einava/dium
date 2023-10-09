@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "vazir";
+  src: url("/fonts/hero/Vazir-Thin-FD.woff2") format("woff2"),
+    url("/fonts/hero/Vazir-Thin-FD.woff") format("woff"),
+    url("/fonts/hero/Vazir-Thin-FD.ttf") format("ttf");
+}
+.index-container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 3rem;
+  flex-wrap: nowrap;
+  position: static;
+}

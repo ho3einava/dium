@@ -1,0 +1,23 @@
+.btn-primary{
+  background-color: rgb(214, 42, 61);
+  font-family: "vazir";
+  font-weight: 600;
+  display: flex;
+  padding-right: 2rem;
+  color: #fff;
+  position: relative;
+}
+.btnparimary-icon {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 1rem;
+  background-color: transparent;
+  color: #fff;
+  width: 25px;
+  height: 100%;
+  
+}
+.btnparimary-icon i{
+  font-size: 1rem;
+}

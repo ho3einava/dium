@@ -1,0 +1,165 @@
+/* ********************* Font family ************************ */
+@font-face {
+  font-family: "vazir";
+  src: url("/fonts/leadcapture/Vazir-Bold-FD-WOL.woff2") format("woff2"),
+    url("/fonts/leadcapture/Vazir-Bold-FD-WOL.woff") format("woff")
+      url("/fonts/leadcapture/Vazir-Bold-FD-WOL.ttf") format("ttf");
+}
+
+/* ********************* CSS styles ************************ */
+
+.features {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.feature-title {
+  color: rgb(29, 32, 37);
+  margin-bottom: 29px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.76;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "vazir";
+}
+.feature-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.feature-card {
+  width: 98%;
+  height: 231px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+  flex-wrap: wrap;
+}
+.feature-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 0px 1.8px 0.1px gray;
+}
+.card-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  background-color: rgba(214, 42, 61, 0.1);
+  margin: 20px;
+}
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 11px;
+  line-height: 1.5;
+  color: rgb(29, 32, 37);
+  font-family: "vazir";
+  margin-right: 20px;
+}
+.card-text {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 11px;
+  line-height: 1.5;
+  color: rgb(29, 32, 37);
+  font-family: "vazir";
+  align-self: center;
+  width: 90%;
+}
+@media screen and (min-width: 200px) and (max-width: 574px) {
+  .features {
+    width: 100%;
+    height: 100%;
+  }
+  .feature-container {
+    width: 100%;
+    height: 100%;
+  }
+  .feature-title {
+    width: 95%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+}
+@media screen and (min-width: 575px) {
+  .feature-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .feature-card {
+    width: 75%;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .feature-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .feature-card {
+    width: 330px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .feature-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .feature-card {
+    width: 320px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .feature-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 1624px;
+  }
+  .feature-card {
+    width: 255px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
