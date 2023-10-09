@@ -7,7 +7,9 @@ li {
 }
 @font-face {
   font-family: "vazir";
-  src: url("/fonts/Vazir-FD-WOL.woff2") format("woff2");
+  src: url("/public/fonts/hero/Vazir-Thin-FD.woff2") format("woff2"),
+       url("/public/fonts/hero/Vazir-Thin-FD.woff") format("woff"),
+       url("/public/fonts/hero/Vazir-Thin-FD.ttf") format("ttf"),
 }
 .container {
   display: flex;
